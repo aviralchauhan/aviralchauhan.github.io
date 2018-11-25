@@ -1,0 +1,81 @@
+/* Reset css*/
+html, body, body * {
+	margin: 0;
+}
+
+/* clearfix css*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* styles css*/
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	background-color:black;
+    box-shadow: 0 2px 12px 2px rgba(0,0,0,0.3);
+}
+
+body {
+    min-height: 100vh;
+    background:gray;
+}
+
+.body-content{
+	padding: 0 40px;
+}
+
+.menu {
+	float: right;
+	margin: 0;
+}
+
+.menu li {
+	list-style: none;
+	float: left;
+}
+
+.menu li a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    min-width: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.menu li a:hover {
+	background-color: #948282;
+}
+
+.img-container {
+	box-shadow: 0 2px 12px 2px rgba(0,0,0,0.3);
+}
+
+.img-container img {
+	width: 100%;
+    height: 420px
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+
+p { 
+    margin-bottom: 8px;
+}
+li{
+   margin-bottom: 10px;
+
+}
