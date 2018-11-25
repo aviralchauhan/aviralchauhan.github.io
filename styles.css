@@ -26,7 +26,7 @@ header {
 
 body {
     min-height: 100vh;
-    background:gray;
+    background:#f1f1f1;
 }
 
 .body-content{
